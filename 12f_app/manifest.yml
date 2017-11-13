@@ -5,4 +5,4 @@ applications:
   services:
   - pingapp-db
   - pingapp-redis
-  
+

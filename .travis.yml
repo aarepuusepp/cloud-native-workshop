@@ -7,6 +7,6 @@ deploy:
   username: aare.puusepp@gmail.com
   api: https://api.run.pivotal.io
   organization: cloud-ape
-  space: development
+  space: staging
   password:
     secure: oOU+d0lV9q8AfEVKFgpZ0D4Z7F/ITaEXR8cUdqw8TQ5rCL47ZGbggi9rJS2aSLKIXYxNDZW2Y9Fk7JBF2Sca6cQeT3ufk48K48yi0X07bYylVKq5JW+OR03Guj7iPEM4TteaWQUIM9Vtupa4osL7TSRJYZ06HHGYxpqdr0zBcwR5g8Wi0KK58/2uwOPGhu+FKVkfRkeGGjyk0ElSPL0uUF+YCAbB4amw41uC+ZJMPXRn3ionPEkMquDK+TkImSo1GZAFrnBzLWA9254pAgQRKxwTdoGETo7gLuew8C6NwSWCzAbdNrz3ERbZsXfDJvSWVv2/EMi+WWMld7INMY9JO1JfcrTd19A3a+K/JTFOzIwQ/2xbuQK3JMnQVPnecBz1Gkn10w9MmDCxwlwjnhXNcgj+Zp0x7Mu7sfg+SRSMu52jESuyuh/r6XJ2PmAtyj5DGjNWyD9kym7gedqJjybk1x4CBBpDcp7SMgFhr42a+UbqWCK5GwtjWQX9yGcGBk20QWhGD+aF13oOzJIy9c4Q14dSwUCIsTzj1iAH5ZI82RPuU6FAgONxN5VG4iSqkm/S/GyVRAXAcd/7QwVz2WKQM11uszyqWa6Y+2Vr/CGeIBdObx0wKx1/C53OSnxmIbmi4K+vHHS0dg+cColu/5EGZY4lsAmAn723UaosinMFAsE=
