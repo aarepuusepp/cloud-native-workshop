@@ -1,7 +1,8 @@
 applications:
-- name: config-pingapp
+- name: config-pingapp-staging
   path: target/config_server-1.0-SNAPSHOT.jar
-  memory: 1G
+  memory: 256M
+  disk_quota: 256M
   env:
       spring.cloud.config.server.git.uri: https://github.com/aarepuusepp/config-repository
 
