@@ -1,9 +1,9 @@
 language: java
 
 before_script:
-    - wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | apt-key add - 
+    - wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add - 
     - echo "deb http://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
-    - apt-get update
-    - apt-get install cf-cli
+    - sudo apt-get update
+    - sudo apt-get install cf-cli
     
 script: cd 12f_app && mvn clean install && cf api https://api.run.pivotal.io && cf auth $USER $PASS && cf target -o $ORG -s $SPACE && cf push
