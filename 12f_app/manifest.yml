@@ -6,3 +6,7 @@ applications:
   - pingapp-db
   - pingapp-redis
 
+env:
+  spring.application.name: ingapp-staging
+  spring.cloud.config.uri: https://http://config-pingapp-staging.cfapps.io
+  management.security.enabled: false
